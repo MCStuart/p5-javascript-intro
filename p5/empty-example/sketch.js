@@ -2,7 +2,8 @@ let x = 0;
 
 function setup() {
   // put setup code here
-  line(15, 25, 70, 90);
+  let myCanvas = createCanvas(600, 400);
+  myCanvas.parent('myContainer');
 }
 
 function draw() {
