@@ -1,9 +1,9 @@
-let img;
 function preload() {
-  img = loadImage('cat.jpg');
+  soundFormats('mp3', 'ogg');
+  mySound = loadSound('./assets/marimba.mp3');
 }
 
 function setup() {
-  createCanvas(400, 240);
-  image(img, 0, 0);
+  mySound.setVolume(0.5);
+  mySound.play();
 }
