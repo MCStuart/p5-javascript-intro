@@ -1,8 +1,9 @@
-function setup() {
-  createCanvas(400, 240);
-  loadImage('cat.jpg', drawCat);
+let img;
+function preload() {
+  img = loadImage('cat.jpg');
 }
 
-function drawCat(img) {
+function setup() {
+  createCanvas(400, 240);
   image(img, 0, 0);
 }
