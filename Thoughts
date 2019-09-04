@@ -1,0 +1,5 @@
+type 
+
+>> $ `browser-sync start --server -f -w` 
+
+into terminal from inside './empty-example' to serve files with browserSync to live-reload upon file changes
