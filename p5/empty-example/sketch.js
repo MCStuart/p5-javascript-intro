@@ -15,3 +15,25 @@ function draw() {
   // ellipse(x, height/2, 20, 20);
   // x++;
 }
+
+// mouse values and function calls
+// MOUSE VALUES
+// mouseX
+// mouseY
+// MOUSE ACTION
+// mouseIsPressed 	
+// MOUSE FUNCTIONS
+// mousePressed()
+// mouseMoved() 	
+// mouseDragged()
+// mouseReleased()
+// mouseClicked() 	
+// mouseScrolled() 	
+
+// TOUCH VALUES
+// touchX
+// touchY
+// touches[]
+// TOUCH FUNCTIONS
+// touchStarted()
+// touchMoved()
