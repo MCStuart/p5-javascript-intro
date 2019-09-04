@@ -3,3 +3,25 @@ type
 >> $ `browser-sync start --server -f -w` 
 
 into terminal from inside './empty-example' to serve files with browserSync to live-reload upon file changes
+
+** Mouse values and function calls**
+
+* MOUSE VALUES
+    mouseX
+    mouseY
+* MOUSE ACTION
+    mouseIsPressed 
+* MOUSE FUNCTIONS
+    mousePressed()
+    mouseMoved() 	
+    mouseDragged()
+    mouseReleased()
+    mouseClicked() 	
+    mouseScrolled() 	
+* TOUCH VALUES
+    touchX
+    touchY
+    touches[]
+* TOUCH FUNCTIONS
+    touchStarted()
+    touchMoved()
